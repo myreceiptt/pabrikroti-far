@@ -7,7 +7,6 @@
 ---
 
 ---
----
 
 ## Maintenance by Prof. NOTA Evergreen Standard
 
@@ -78,10 +77,10 @@ Examples:
 
 ## PABRIK ROTI v.2.3.33: Staging NFT FAR by Futuloka
 
-Link #1: https://far.futuloka.io/  
-Link #2: https://www.futuloka.xyz/  
-Link #3: https://far.futuloka.xyz/  
-Link #4: https://far.endhonesa.com/
+Link #1: [far.futuloka.io](https://far.futuloka.io/)  
+Link #2: [www.futuloka.xyz](https://www.futuloka.xyz/)  
+Link #3: [far.futuloka.xyz](https://far.futuloka.xyz/)  
+Link #4: [far.endhonesa.com](https://far.endhonesa.com/)
 
 ## 📜 Licenses
 
@@ -162,6 +161,6 @@ yarn start
 - `@types/node` is pinned to **24.x** to match the Node 24 runtime (Vercel).
 - Yarn is **4.x**; use `yarn up -i` for update review and `yarn npm audit --severity moderate` for security checks.
 
-## Join Prof. NOTA Discord!
+## Join Prof. NOTA Discord
 
 For questions or suggestions, join Prof. NOTA discord at [https://discord.gg/5KrsT6MbFm](https://discord.gg/5KrsT6MbFm).
