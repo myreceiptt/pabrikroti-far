@@ -190,12 +190,21 @@ export default function CoinDetails() {
         );
       }
 
+      const coinName =
+        typeof coinMetaData.name === "string" ? coinMetaData.name : "";
+      const coinSymbol =
+        typeof coinMetaData.symbol === "string" ? coinMetaData.symbol : "";
+      const coinDescription =
+        typeof coinMetaData.description === "string"
+          ? coinMetaData.description
+          : "";
+
       setCoin({
         coinAddress: erc20ContractLaunched.address,
         coinChain: erc20ContractLaunched.chain,
-        coinName: coinMetaData.name,
-        coinSymbol: coinMetaData.symbol,
-        coinDescription: coinMetaData.description,
+        coinName,
+        coinSymbol,
+        coinDescription,
         coinBy: erc20ContractLaunched.by,
         coinLink: erc20ContractLaunched.link,
         adjustedPrice,
