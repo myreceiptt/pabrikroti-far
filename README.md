@@ -38,7 +38,7 @@ This repo powers **NFT FOR A REASON (NFT FAR)** — a Web3 initiative for grassr
 ### How we build (quality + workflow)
 
 - We keep the UI production-safe and the onchain logic auditable: each claim path reflects live chain state (eligibility, supply, max supply, and currency).
-- We ship changes in small, reviewable steps with consistent maintenance (Node 24 / Yarn 4), and always verify with audit/lint/build.
+- We ship changes in small, reviewable steps with consistent maintenance (Node / Yarn), and always verify with audit/lint/build.
 - We treat this repo as an operational artefact: a documented program interface that stays deployable while preserving the intent and UX of the initiative.
 
 ## 📜 Licenses
